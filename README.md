@@ -7,6 +7,15 @@ Although, Now that the OTT platforms are increasing prices it becomes essential 
 
 Here in this project we are determined to answer these questions in terms of tv shows, we can extend the analysis and use similar analysis techniques for movies too. But for this project our scope is limited to TV Shows.
 
+Goal:
+
+• Which streaming platform(s) can I find this tv show on?
+• IMDb ratings of any particular tv show?
+• Target age group tv shows vs the streaming application they can be found on
+• The year during which a tv show was produced and the streaming platform they can be found on?
+• Which streaming service has most tv shows for a particular category?, etc
+
+
 # Project attributes (dimensions and metrics):
 
 Dimensions: Name of TV show, Year in which it was released, Age rating 
@@ -15,8 +24,8 @@ Metrics: IMDB Rating, Rotten tomatoes rating, Year, binary values in Netflix, Pr
 
 # What metrics are you planning to analyze:
 
-• Which streaming platform(s) can I find this tv show on?
-• IMDb ratings of any particular tv show?
-• Target age group tv shows vs the streaming application they can be found on
-• The year during which a tv show was produced and the streaming platform they can be found on?
-• Which streaming service has most tv shows for a particular category?, etc
+Average IMDB rating on each platform, Max IMDB rating for a year.
+
+Average Rotten tomatoes rating on each platform, Max Rotten tomatoes for a year, Max IMDB / Rotten tomatoes rated show on each platform.
+
+Count of shows available on Netflix, Count of shows available on Hulu, Count of shows available on Prime, Count of shows available on Disney.
