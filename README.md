@@ -7,6 +7,7 @@ Although, Now that the OTT platforms are increasing prices it becomes essential 
 
 Here in this project we are determined to answer these questions in terms of tv shows, we can extend the analysis and use similar analysis techniques for movies too. But for this project our scope is limited to TV Shows.
 
+Kaggle dataset link: https://www.kaggle.com/ruchi798/tv-shows-on-netflix-prime-video-hulu-and-disney
 Goal:
 
 • Which streaming platform(s) can I find this tv show on?
