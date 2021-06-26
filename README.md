@@ -7,15 +7,11 @@ Although, Now that the OTT platforms are increasing prices it becomes essential 
 
 Here in this project we are determined to answer these questions in terms of tv shows, we can extend the analysis and use similar analysis techniques for movies too. But for this project our scope is limited to TV Shows.
 
-# Project attributes (dimensions and facts):
+# Project attributes (dimensions and metrics):
 
-We have IMDB rating as float values and Rotten tomatoes as percentage values which we can scale into float of 0-10. 
+Dimensions: Name of TV show, Year in which it was released, Age rating 
 
-We also have binary values in Netflix, Prime, Hulu and Disney columns where 0 describes its not available on the platform and 1 basically says that its available on the platform.
-
-We have Age attribute that basically gives us the rating and for which users the content it is suitable for.
-
-We also have the year attribute which tells us the year in which the tv show was released.
+Metrics: IMDB Rating, Rotten tomatoes rating, Year, binary values in Netflix, Prime, Hulu and Disney
 
 # What metrics are you planning to analyze:
 
