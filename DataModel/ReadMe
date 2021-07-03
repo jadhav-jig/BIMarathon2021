@@ -1,0 +1,22 @@
+Steps for Dimensional Modeling: 
+
+Business Value: Analysis for cryptocurrency which can be used by crypto traders or investors.
+Grain: Analysis would be based on monthly/daily as time series prediction.
+----------------------------------------------------------------------------
+Dimensions : 
+   ** Date : PK_Date_Time
+      (Year, Month, Dayy, Hour, Minutes, Seconds)
+   ** Coin : PK_SrNo
+      (Name, Symbol)
+   
+----------------------------------------------------------------------------   
+Facts: 
+Fact_Crypto:
+ ** FK_1_Date_Time
+ ** FK_3_SerialNo
+ ** Market_High
+ ** Market_Low
+ ** Market Capital
+ ** Volume
+ ** Market Open 
+ ** Market Close
