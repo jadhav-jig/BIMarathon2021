@@ -2,12 +2,10 @@
 
 # Project mission and goal:
 
-Analysis of tv series provided by OTT platforms. In recent years we have been hit with so many content providers. A road which was initially started by NETFLIX, Now is being explored by so many companies. The world is moving from cable and dish which used to be provided by network companies but due to soaring prices and to not have independence on what to watch.
-Although, Now that the OTT platforms are increasing prices it becomes essential to choose the one or two platforms which could be enough for each household according to the type of content they want to watch.
+Analysis of Cryptocurrency specifically Ethereum and Bitcoin. 
+Here in this project we are determined 
 
-Here in this project we are determined to answer these questions in terms of tv shows, we can extend the analysis and use similar analysis techniques for movies too. But for this project our scope is limited to TV Shows.
-
-Kaggle dataset link: https://www.kaggle.com/ruchi798/tv-shows-on-netflix-prime-video-hulu-and-disney
+Kaggle dataset link: https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory?select=coin_Bitcoin.csv
 Goal:
 
 • Which streaming platform(s) can I find this tv show on?
