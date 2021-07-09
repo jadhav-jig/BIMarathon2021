@@ -5,7 +5,7 @@ Grain: Analysis would be based on monthly/daily as time series prediction.
 ----------------------------------------------------------------------------
 Dimensions : 
    ** Date : PK_Date_Time
-      (Year, Month, Dayy, Hour, Minutes, Seconds)
+      (PK_Date_Time)
    ** Coin : PK_SrNo
       (Name, Symbol)
    
@@ -13,10 +13,8 @@ Dimensions :
 Facts: 
 Fact_Crypto:
  ** FK_1_Date_Time
- ** FK_3_SerialNo
- ** Market_High
- ** Market_Low
- ** Market Capital
- ** Volume
- ** Market Open 
- ** Market Close
+ ** FK_2_Serialno
+ ** FK_3_Serialno
+ ** Average Market Capital
+ ** Average Market Volume
+ ** Average Market Price
