@@ -5,7 +5,7 @@ Grain: Analysis would be based on monthly/daily as time series prediction.
 ----------------------------------------------------------------------------
 Dimensions : 
    ** Date : PK_Date_Time
-      (PK_Date_Time)
+      (Time,Month, Year)
    ** Coin : PK_SrNo
       (Name, Symbol)
    
