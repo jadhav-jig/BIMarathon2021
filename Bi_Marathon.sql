@@ -11,7 +11,7 @@ CREATE TABLE temp_table (
   Market_cap float DEFAULT NULL
 );
 
-
+--Create Dim_date Table
 CREATE TABLE Dim_Date (
 Date_id int not null auto_increment,
 Date_Time varchar(255),
@@ -19,7 +19,7 @@ Primary key(Date_id)
 );
 
 
-
+--Create Market table
 CREATE TABLE Market (
 Market_id int not null auto_increment,
 Market_High float,
@@ -30,7 +30,7 @@ Market_Volume int,
 Market_Cap float,
 Primary key(Market_id)
 );
-
+--Create Dim_coin table
 CREATE TABLE Dim_Coin (
 Coin_id int not null auto_increment,
 Coin_Name varchar(255),
@@ -38,6 +38,7 @@ Symbol varchar(255),
 Primary key(Coin_id)
 );
 
+--Create fact table
 
 CREATE table Fact_Table(
 Fact_id int not null auto_increment,
